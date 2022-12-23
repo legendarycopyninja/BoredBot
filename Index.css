@@ -1,0 +1,36 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body{
+    margin: 0;
+    height: 100vh;
+    background: linear-gradient(to top, #2c3e50, #bdc3c7);
+    background-repeat: no-repeat;
+}
+.container {
+   display:flex ;
+   flex-direction: column;
+   align-items: center;
+ 
+   
+}
+
+button {
+    width: 75px;
+    height: 75px;
+    border-radius: 50%;
+    border-style: none;
+    border: 3px solid black;
+    background-color: burlywood;
+    cursor: pointer;
+}
+
+.fun {
+    /* CSS generated from https://uigradients.com */
+    background: #fc4a1a;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to left, #f7b733, #fc4a1a);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to left, #f7b733, #fc4a1a); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
